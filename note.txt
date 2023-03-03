@@ -1,0 +1,98 @@
+Ada banyak jenis tanaman di dunia, beberapa di antaranya adalah:
+
+Pohon: seperti pohon oak, pohon maple, pohon cemara, dan lain-lain
+Bunga: seperti mawar, tulip, melati, dan lain-lain
+Sayuran: seperti tomat, mentimun, brokoli, dan lain-lain
+Buah-buahan: seperti apel, pisang, anggur, dan lain-lain
+Pucuk: seperti selasih, bayam, kol, dan lain-lain
+Tumbuhan obat: seperti kumis kucing, daun mint, dan lain-lain
+Tumbuhan air: seperti lotus, water lily, dan lain-lain
+Tumbuhan liar: seperti rumput, pohon-pohon kecil, dan lain-lain.
+
+Ada banyak jenis hewan di dunia, beberapa di antaranya adalah:
+
+Mamalia: seperti kucing, anjing, gajah, monyet, dan lain-lain
+Reptil: seperti kadal, buaya, ular, dan lain-lain
+Burung: seperti elang, merpati, burung hantu, dan lain-lain
+Ikan: seperti ikan hiu, ikan paus, ikan mas, dan lain-lain
+Serangga: seperti lebah, tawon, kumbang, dan lain-lain
+Mollusk: seperti siput, ubur-ubur, dan lain-lain
+Amphibia: seperti kodok, axolotl, dan lain-lain
+Arthropoda: seperti laba-laba, belalang, krebs, dan lain-lain.
+
+---------------------------------------------
+
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateCountdownTable extends Migration
+{
+    public function up()
+    {
+        Schema::create('countdown', function (Blueprint $table) {
+            $table->id();
+            $table->timestamp('end_time');
+            $table->timestamps();
+        });
+    }
+
+    public function down()
+    {
+        Schema::dropIfExists('countdown');
+    }
+}
+
+
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
+class CountdownController extends Controller
+{
+    public function index()
+    {
+        $end_time = DB::table('countdown')->first()->end_time;
+
+        return view('countdown', ['end_time' => $end_time]);
+    }
+}
+
+<div id="countdown-timer"></div>
+
+<script>
+  var end_time = new Date("{{ $end_time }}");
+  var current_time = new Date();
+  var diff = end_time - current_time;
+
+  setInterval(function() {
+    diff = diff - 1000;
+    var seconds = Math.floor(diff / 1000 % 60);
+    var minutes = Math.floor(diff / 1000 / 60 % 60);
+    var hours = Math.floor(diff / 1000 / 60 / 60 % 24);
+    var days = Math.floor(diff / 1000 / 60 / 60 / 24);
+
+    document.getElementById("countdown-timer").innerHTML = days + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds";
+  }, 1000);
+</script>
+
+jenis vitamin untuk hewan dan tumbuhan
+Vitamin A: membantu pemeliharaan kesehatan kulit dan membran mukosa, dan penting bagi penglihatan malam hari.
+
+Vitamin B1 (tiamin): membantu memelihara sistem saraf dan meningkatkan produktivitas dan daya tahan hewan.
+
+Vitamin B2 (riboflavin): membantu pembentukan sel dan memelihara kesehatan kulit dan mata.
+
+Vitamin B3 (niacin): membantu memelihara kesehatan kulit dan membantu proses metabolisme energi.
+
+Vitamin C: membantu memelihara kesehatan sistem imun dan membantu dalam penyembuhan luka.
+
+Vitamin D: membantu menyerap kalsium dan memelihara kesehatan tulang dan gigi.
+
+Vitamin E: membantu memelihara kesehatan sel dan meningkatkan daya tahan terhadap stres oksidatif.
+

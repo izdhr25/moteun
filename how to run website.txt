@@ -1,0 +1,64 @@
+Alur penggunaan MoTeun
+1. Import file moteun.sql pada direktori yang sama dengan note ini.
+2. Apabila sudah, silakan login dengan salah satu atau secara bergantian dengan akun yang ada dibawah alur ini.
+3. Inputan yang harus ditambah untuk pertama kali adalah obat, artikel, tani dan ternak pada halaman user.
+4. Inputan yang harus ditambah untuk pertama kali adalah obat, artikel, jenis tani dan jenis ternak pada halaman admin.
+5. Jika ingin menambah admin baru harus melewati login dengan salah satu akun admin yang ada di bawah ini.
+6. Website siap dioperasikan.
+
+akun admin
+email : izdihar0825@gmail.com
+password : 25082004
+
+email : tryjie.san65@gmail.com
+password : TriAji65
+
+akun user
+email : user@gmail.com
+password : 244564
+
+email : butun@gmail.com
+password : Butun2004
+
+----------------------------------------------
+
+Ada banyak jenis tanaman di dunia, beberapa di antaranya adalah:
+
+Pohon: seperti pohon oak, pohon maple, pohon cemara, dan lain-lain
+Bunga: seperti mawar, tulip, melati, dan lain-lain
+Sayuran: seperti tomat, mentimun, brokoli, dan lain-lain
+Buah-buahan: seperti apel, pisang, anggur, dan lain-lain
+Pucuk: seperti selasih, bayam, kol, dan lain-lain
+Tumbuhan obat: seperti kumis kucing, daun mint, dan lain-lain
+Tumbuhan air: seperti lotus, water lily, dan lain-lain
+Tumbuhan liar: seperti rumput, pohon-pohon kecil, dan lain-lain.
+
+Ada banyak jenis hewan di dunia, beberapa di antaranya adalah:
+
+Mamalia: seperti kucing, anjing, gajah, monyet, dan lain-lain
+Reptil: seperti kadal, buaya, ular, dan lain-lain
+Burung: seperti elang, merpati, burung hantu, dan lain-lain
+Ikan: seperti ikan hiu, ikan paus, ikan mas, dan lain-lain
+Serangga: seperti lebah, tawon, kumbang, dan lain-lain
+Mollusk: seperti siput, ubur-ubur, dan lain-lain
+Amphibia: seperti kodok, axolotl, dan lain-lain
+Arthropoda: seperti laba-laba, belalang, krebs, dan lain-lain.
+
+---------------------------------------------
+
+jenis vitamin untuk hewan dan tumbuhan
+Vitamin A: membantu pemeliharaan kesehatan kulit dan membran mukosa, dan penting bagi penglihatan malam hari.
+
+Vitamin B1 (tiamin): membantu memelihara sistem saraf dan meningkatkan produktivitas dan daya tahan hewan.
+
+Vitamin B2 (riboflavin): membantu pembentukan sel dan memelihara kesehatan kulit dan mata.
+
+Vitamin B3 (niacin): membantu memelihara kesehatan kulit dan membantu proses metabolisme energi.
+
+Vitamin C: membantu memelihara kesehatan sistem imun dan membantu dalam penyembuhan luka.
+
+Vitamin D: membantu menyerap kalsium dan memelihara kesehatan tulang dan gigi.
+
+Vitamin E: membantu memelihara kesehatan sel dan meningkatkan daya tahan terhadap stres oksidatif.
+
+---------------------------------------------
